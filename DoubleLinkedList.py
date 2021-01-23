@@ -48,7 +48,6 @@ class DoubleLinkedList():
 
     def push_tail(self, data):
         new_node = Node(data)
-
         for node in self:
             next_node = node.get_next()
             if (next_node is None):
@@ -122,7 +121,7 @@ class DoubleLinkedList():
         mystring = []
         for node in self:
             mystring.append(node.get_data())
-        return "->".join(mystring)
+        return " -> ".join(mystring)
 
 
 STRINGS = ["Donald", "John", "Trump"]
