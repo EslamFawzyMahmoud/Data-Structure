@@ -15,4 +15,6 @@ def bubblesort(arr):
 
 arr=[5,4,1,2,7,8,0,100,6]
 
-print(bubblesort(arr))
+print("Before Sort: ",arr)
+
+print("After Sort: ",bubblesort(arr))

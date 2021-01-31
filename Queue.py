@@ -41,8 +41,8 @@ class Queue:
     def peek(self):
         return self.first.val
 
-
 myq = Queue()
+
 myq.enqueue('google')
 myq.enqueue('microsoft')
 myq.enqueue('facebook')
